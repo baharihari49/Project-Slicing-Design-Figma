@@ -585,6 +585,14 @@ video {
   right: -20px;
 }
 
+.-top-\[1054px\] {
+  top: -1054px;
+}
+
+.left-\[466px\] {
+  left: 466px;
+}
+
 .-z-0 {
   z-index: 0;
 }
@@ -595,6 +603,14 @@ video {
 
 .z-40 {
   z-index: 40;
+}
+
+.-z-10 {
+  z-index: -10;
+}
+
+.z-50 {
+  z-index: 50;
 }
 
 .mx-3 {
@@ -700,6 +716,14 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.mt-12 {
+  margin-top: 3rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .block {
   display: block;
 }
@@ -744,6 +768,22 @@ video {
 
 .h-\[200px\] {
   height: 200px;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.h-\[391px\] {
+  height: 391px;
+}
+
+.h-\[250px\] {
+  height: 250px;
+}
+
+.max-h-\[1293px\] {
+  max-height: 1293px;
 }
 
 .w-\[1293px\] {
@@ -804,6 +844,22 @@ video {
   width: 25px;
 }
 
+.w-\[1293\] {
+  width: 1293;
+}
+
+.w-\[70\%\] {
+  width: 70%;
+}
+
+.w-\[60\%\] {
+  width: 60%;
+}
+
+.w-\[85\%\] {
+  width: 85%;
+}
+
 .min-w-\[200px\] {
   min-width: 200px;
 }
@@ -814,6 +870,10 @@ video {
 
 .max-w-full {
   max-width: 100%;
+}
+
+.max-w-\[1293px\] {
+  max-width: 1293px;
 }
 
 .flex-1 {
@@ -886,6 +946,10 @@ video {
 
 .rounded-md {
   border-radius: 0.375rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
 }
 
 .rounded-l-full {
@@ -1032,6 +1096,16 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .pt-5 {
@@ -1420,6 +1494,11 @@ video {
     margin-bottom: 72px;
   }
 
+  .laptop\:mx-3 {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+  }
+
   .laptop\:mt-14 {
     margin-top: 3.5rem;
   }
@@ -1456,6 +1535,14 @@ video {
     margin-top: 4rem;
   }
 
+  .laptop\:ml-6 {
+    margin-left: 1.5rem;
+  }
+
+  .laptop\:mt-12 {
+    margin-top: 3rem;
+  }
+
   .laptop\:block {
     display: block;
   }
@@ -1485,6 +1572,10 @@ video {
     height: 32px;
   }
 
+  .laptop\:h-\[391px\] {
+    height: 391px;
+  }
+
   .laptop\:w-max {
     width: -moz-max-content;
     width: max-content;
@@ -1512,6 +1603,10 @@ video {
 
   .laptop\:w-\[45\%\] {
     width: 45%;
+  }
+
+  .laptop\:w-\[55\%\] {
+    width: 55%;
   }
 
   .laptop\:grid-cols-3 {
@@ -1577,6 +1672,21 @@ video {
   .laptop\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .laptop\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .laptop\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .laptop\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .laptop\:pt-20 {
