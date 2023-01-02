@@ -8,7 +8,8 @@ module.exports = {
       },
       gridTemplateColumns: {
         '20': 'repeat(5, minmax(85px, 1fr))',
-        '21': 'repeat(3, minmax(300px, 1fr))',
+        '21': 'repeat(3, minmax(250px, 1fr))',
+        '21.2': 'repeat(3, minmax(300px, 1fr))',
         'lg': 'repeat(15, minmax(240px, 1fr))',
         'lg2': 'repeat(5, minmax(120px, 1fr))',
         'lg3': 'repeat(6, minmax(162px, 1fr))',
